@@ -9,7 +9,7 @@ import geminiResponse from './gemini.js';
 dotenv.config();
 const app=express();
 app.use(cors({
-  origin: "https://virtual-assistant-fronted.onrender.com",
+  origin: "http://localhost:5173",
   credentials: true
 }))
 const port=process.env.PORT
